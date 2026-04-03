@@ -46,37 +46,19 @@ function About() {
             et l'individu.
           </p>
 
-          {/* Citation mise en avant */}
-          {/* <motion.div
-            className="relative bg-[#f7f5f0] border-l-[3px] border-[#C7B9A5] px-6 py-5 rounded-lg shadow-md"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-          >
-            <span className="absolute top-0 left-4 text-[5rem] leading-none text-[#C7B9A5]/15 font-['Playfair_Display'] select-none">
-              "
-            </span>
-            <p className="relative font-['Playfair_Display'] text-lg italic font-normal text-[#12243A] leading-relaxed">
-              Mettre de la structure sans rigidité, viser la performance sans brutalité,
-              et maintenir une exigence sincère, toujours portée par la bienveillance.
-            </p>
-          </motion.div> */}
-
-          {/* Dernier paragraphe */}
+          
           <p className="text-[14px] leading-relaxed text-[#5a6e7a] font-light">
             Mon approche est née du réel, du terrain, et du sens profond que je donne à mon métier.
           </p>
 
         </motion.div>
 
-        {/* ── COLONNE DROITE : photo ── */}
         <motion.div
           className="flex flex-col items-center gap-5 lg:pt-8"
           initial={{ opacity: 0, x: 40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          {/* Photo circulaire avec anneau */}
           <div className="relative">
             <div className="absolute -inset-3 rounded-full border border-[#C7B9A5]/20" />
             <img

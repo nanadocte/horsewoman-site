@@ -1,6 +1,7 @@
 import Hero from '../../sections/Home/Hero'
 import About from '../../sections/Home/About'
 import Vision from '../../sections/Home/Vision'
+import Who from '../../sections/Home/Who'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
 </div>
     <About/>
     <Vision/>
+    <Who/>
 </section>
     </main>
   )
