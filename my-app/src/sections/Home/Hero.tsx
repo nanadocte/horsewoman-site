@@ -16,7 +16,7 @@ function Hero(){
         {/* Ligne + titre secondaire */}
         <div className="flex items-center gap-4 mb-4 relative z-10">
           <div className="w-16 h-1 bg-[#28425F]"></div>
-          <p className="text-lg md:text-xl font-semibold text-[#28425F]" >
+          <p className="leading-relaxed text-lg md:text-xl font-semibold text-[#28425F]" >
             Coach & Préparatrice équestre
           </p>
         </div>
@@ -28,12 +28,12 @@ function Hero(){
         </h1>
 
         {/* Texte descriptif */}
-        <p className="text-md md:text-md text-slate-200 max-w-lg mb-8 relative z-10 font-light">
+        <p className="leading-relaxed text-md md:text-md text-slate-200 max-w-lg mb-8 relative z-10 font-light">
           Une approche qui relie technique, corps et mental, pour former des cavaliers capables de comprendre, ressentir et décider.
         </p>
 
         {/* CTA Glass / 3D effect */}
-        <button className="relative z-10 bg-linear-to-r  from-[#C7B9A5] to-[#c1ab8d] text-[#28425F] px-6 py-3 rounded-xl font-semibold backdrop-blur-sm shadow-lg hover:scale-105 hover:brightness-110 transition transform">
+        <button className="leading-relaxed relative z-10 bg-linear-to-r  from-[#1b395b] via-[#113054] to-[#092a51] text-slate-200  px-6 py-3 rounded-xl font-semibold backdrop-blur-sm shadow-lg hover:scale-105 hover:brightness-110 transition transform">
           Découvrir la méthode
         </button>
 
